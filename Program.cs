@@ -50,8 +50,15 @@ namespace WSB_C_2020_Z1
                     Console.WriteLine("Wybrano operację dzielenia");
                     Console.WriteLine("Podaj pierwszą liczbę:");
                     a = double.Parse(Console.ReadLine());
-                    Console.WriteLine("Podaj drugą liczbę:");
-                    b = double.Parse(Console.ReadLine());
+                    do
+                    {
+                        Console.WriteLine("Podaj drugą liczbę:");
+                        b = double.Parse(Console.ReadLine());
+                        if (b == 0)
+                        {
+                            Console.WriteLine("Nie można dzielić przez zero!");
+                        }
+                    } while (b == 0);
                     x = a / b;
                     Console.WriteLine("wynik to " + x);
                     break;
