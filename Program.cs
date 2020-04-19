@@ -6,7 +6,33 @@ namespace WSB_C_2020_Z1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int wybór;
+            double a, b, x;
+            Console.WriteLine("Witaj w kalkulatorze. Wybierz co chcesz zrobić");
+            Console.WriteLine("1. Dodawanie");
+            Console.WriteLine("2. Odejmowanie");
+            
+            wybór = int.Parse(Console.ReadLine());
+            if (wybór == 1)
+            {
+                Console.WriteLine("Wybrano operację dodawania");
+                Console.WriteLine("Podaj pierwszą liczbę");
+                a = double.Parse(Console.ReadLine());
+                Console.WriteLine("Podaj drugą liczbę");
+                b = double.Parse(Console.ReadLine());
+                x = a + b;
+                Console.WriteLine("wynik to " + x);
+            }
+            if (wybór == 2)
+            {
+                Console.WriteLine("Wybrano operację odejmowania");
+                Console.WriteLine("Podaj pierwszą liczbę:");
+                a = double.Parse(Console.ReadLine());
+                Console.WriteLine("Podaj drugą liczbę:");
+                b = double.Parse(Console.ReadLine());
+                x = a - b;
+                Console.WriteLine("wynik to " + x);
+            }
 
             Console.ReadLine();
         }
