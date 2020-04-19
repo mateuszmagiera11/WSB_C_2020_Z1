@@ -1,0 +1,23 @@
+﻿Zadania w tytule / nazwie pliku należy oznaczyć. WSB_C_2020_Z1_xx gdzie xx jest nr podzadania. Jeżeli przesyłam zbiorczo wszystkie zadania należy użyć formatu WSB_C_2020_Z1
+
+Zadanie złożone. Treść podzadań:
+
+
+1. Napisz program wyświetlający na konsoli napis “Hello World”
+
+2. Z użyciem pętli for napisz program do obliczania silni dla liczb 9, 20, 243
+
+2.1 Napisz zmodyfikowany  program do obliczania silni tak by pobierać parametr z klawiatury 
+
+3. Napisz kalkulator mnożący dwie liczby wprowadzone z klawiatury
+
+3.1 Zmodyfikuj kalkulator tak by można było wybrać operację : dodawanie lub odejmowanie używając instrukcji if, 
+
+3.2 Dodaj do kalkulatora możliwość mnożenia ( switch )
+
+3.3 Dodaj operację dzielenia i obsługę wyjątków ( dzielenie przez zero )
+
+4. Zmodyfikuj kalkulator tak, by wykorzystując wyjątki i pętle do while by obsługiwał wiele operacji i wiele parametrów zewnętrznych. 
+Program ma zakończyć działanie i podać wynik po wprowadzeniu określonego znaku ( np, litera n )
+
+5. Zmodyfikuj kalkulator z punktu 3 tak by wykorzystywać klasy. By program się uruchomił i działał potrzebujesz klasę main oraz klasę Kalkulator.
