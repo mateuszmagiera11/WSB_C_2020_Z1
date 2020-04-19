@@ -12,6 +12,7 @@ namespace WSB_C_2020_Z1
             Console.WriteLine("1. Dodawanie");
             Console.WriteLine("2. Odejmowanie");
             Console.WriteLine("3. Mnożenie");
+            Console.WriteLine("4. Dzielenie");
             
             wybór = Console.ReadLine();
             if (wybór == "1")
@@ -43,6 +44,15 @@ namespace WSB_C_2020_Z1
                     Console.WriteLine("Podaj drugą liczbę:");
                     b = double.Parse(Console.ReadLine());
                     x = a * b;
+                    Console.WriteLine("wynik to " + x);
+                    break;
+                case "4":
+                    Console.WriteLine("Wybrano operację dzielenia");
+                    Console.WriteLine("Podaj pierwszą liczbę:");
+                    a = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Podaj drugą liczbę:");
+                    b = double.Parse(Console.ReadLine());
+                    x = a / b;
                     Console.WriteLine("wynik to " + x);
                     break;
                 default:
