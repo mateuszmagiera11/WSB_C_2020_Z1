@@ -7,28 +7,15 @@ namespace WSB_C_2020_Z1
     {
         static void Main(string[] args)
         {
-            int n = 9, wynik = 1;
+            BigInteger n, wynik = 1;
+            Console.WriteLine("Podaj liczbę jako podstawę silni do obliczenia: ");
+            n = BigInteger.Parse(Console.ReadLine());
+
             for (int i = 1; i <= n; i++)
             {
-
                 wynik *= i;
-
             }
-            Console.WriteLine("wynik to " + wynik);
-
-            long o = 20, silnia = 1;
-            for (int k = 1; k <= o; k++)
-            {
-                silnia *= k;
-            }
-            Console.WriteLine("wynik to " + silnia);
-
-            BigInteger x = 243, z = 1;
-            for (int l = 1; l <= x; l++)
-            {
-                z *= l;
-            }
-            Console.WriteLine("wynik to " + z);
+            Console.WriteLine("Wynik to " + wynik);
 
             Console.ReadLine();
         }
