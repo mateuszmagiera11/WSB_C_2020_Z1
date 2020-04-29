@@ -17,43 +17,25 @@ namespace WSB_C_2020_Z1
             if (wybór == "1")
             {
                 Calculator.Suma();
-
+                
             }
             if (wybór == "2")
             {
-                
+                Calculator.Odejm();
             }
             switch (wybór)
             {
                 case "3":
-                    Console.WriteLine("Wybrano operację mnożenia");
-                    Console.WriteLine("Podaj pierwszą liczbę:");
-                    a = double.Parse(Console.ReadLine());
-                    Console.WriteLine("Podaj drugą liczbę:");
-                    b = double.Parse(Console.ReadLine());
-                    x = a * b;
-                    Console.WriteLine("wynik to " + x);
-                    break;
+                    Calculator.Iloczyn();
+                break;
+            }        
+            switch (wybór)
+            {
                 case "4":
-                    Console.WriteLine("Wybrano operację dzielenia");
-                    Console.WriteLine("Podaj pierwszą liczbę:");
-                    a = double.Parse(Console.ReadLine());
-                    do
-                    {
-                        Console.WriteLine("Podaj drugą liczbę:");
-                        b = double.Parse(Console.ReadLine());
-                        if (b == 0)
-                        {
-                            Console.WriteLine("Nie można dzielić przez zero!");
-                        }
-                    } while (b == 0);
-                    x = a / b;
-                    Console.WriteLine("wynik to " + x);
-                    break;
-                default:
-                    Console.WriteLine("Nieznane polecenie.");
+                    Calculator.Iloraz();
                     break;
             }
+           
 
             Console.ReadLine();
         }
