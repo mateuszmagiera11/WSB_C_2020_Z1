@@ -17,23 +17,12 @@ namespace WSB_C_2020_Z1
             wybór = Console.ReadLine();
             if (wybór == "1")
             {
-                Console.WriteLine("Wybrano operację dodawania");
-                Console.WriteLine("Podaj pierwszą liczbę");
-                a = double.Parse(Console.ReadLine());
-                Console.WriteLine("Podaj drugą liczbę");
-                b = double.Parse(Console.ReadLine());
-                
-                Console.WriteLine("wynik to " + x);
+                Calculator.Suma();
+
             }
             if (wybór == "2")
             {
-                Console.WriteLine("Wybrano operację odejmowania");
-                Console.WriteLine("Podaj pierwszą liczbę:");
-                a = double.Parse(Console.ReadLine());
-                Console.WriteLine("Podaj drugą liczbę:");
-                b = double.Parse(Console.ReadLine());
-                x = a - b;
-                Console.WriteLine("wynik to " + x);
+                
             }
             switch (wybór)
             {
