@@ -13,9 +13,7 @@ namespace WSB_C_2020_Z1
             Console.WriteLine("Podaj pierwszą liczbę");
             a = double.Parse(Console.ReadLine());
             Console.WriteLine("Podaj drugą liczbę");
-            b = double.Parse(Console.ReadLine());
-
-            double x;
+            double a, b, x;
             x = a + b;
             return x;
         }

@@ -7,7 +7,6 @@ namespace WSB_C_2020_Z1
         static void Main(string[] args)
         {
             string wybór;
-            double a, b, x;
             Console.WriteLine("Witaj w kalkulatorze. Wybierz co chcesz zrobić");
             Console.WriteLine("1. Dodawanie");
             Console.WriteLine("2. Odejmowanie");
